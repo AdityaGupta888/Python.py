@@ -1,2 +1,2 @@
 # Python.py
-Some Projects with the Python
+Some Projects with Python
