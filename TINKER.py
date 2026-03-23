@@ -3,16 +3,11 @@
 a = input("Enter the day: ").capitalize()
 if a == "Tuesday" or a == "Wednesday":
     print("Today is Stamina Building day Do Sprints")
-
 elif a == "Thursday" or a == "Friday" or a == "Saturday" or a== "Sunday":
     print("Today is Calisthenics day Do Pushups, Pullups, Dips, Squats, Lunges")
-
 else:    print("Today is Rest Day")
 
-
 #=== Explanation of that why we used elif not just if and else and how it works ===
-
-
 '''💡 Why this works
 if → checks first condition
 elif → checked ONLY if first condition is false
@@ -31,21 +26,15 @@ else	Final fallback of that chain'''
 
 #===🔥 Ultra Clean Version (Recommended)===
 
-
 a = input("Enter the day: ").capitalize()
-
 if a in ["Tuesday", "Wednesday"]:
     print("Today is Stamina Building day Do Sprints")
-
 elif a in ["Thursday", "Friday", "Saturday", "Sunday"]:
     print("Today is Calisthenics day Do Pushups, Pullups, Dips, Squats, Lunges")
-
-else:
-     print("Today is Rest Day")
+else: print("Today is Rest Day")
 
 
 #=== Explanation of that why we used .capitalize() and how it works ===
-
 ''' 🔤 What is capitalize()?
 
 capitalize() is a string method in Python.
