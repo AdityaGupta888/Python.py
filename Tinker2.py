@@ -9,5 +9,8 @@ elif b > a and b > c:
     print("Pranav spent the most money")
 elif c > a and c > b:
     print("Dev spent the most money")
+print("Money spent by Aditya is", a)
+print("Money spent by Pranav is", b)
+print("Money spent by Dev is", c)
     print("Total money spent by Aditya, Pranav and Dev is", a + b + c)
     print("Average money spent by  all = Aditya, Pranav and Dev is", (a + b + c) / 3)
