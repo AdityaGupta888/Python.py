@@ -8,7 +8,7 @@ if a > b and a > c:
 elif b > a and b > c:
    print("Pranav spent the most money , So he is the GOAT")
 elif c > a and c > b:
-print("Dev spent the most money ,So he is the Boss" )
+   print("Dev spent the most money ,So he is the Boss" )
 print("Total money spent by Aditya, Pranav and Dev is", a + b + c)
 print("Money spent by Aditya in percentage is", (a / (a + b + c)) * 100, "%")
 print("Money spent by Pranav in percentage is", (b / (a + b + c)) * 100, "%")
