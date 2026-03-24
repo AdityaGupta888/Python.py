@@ -1,3 +1,5 @@
+#//== Just a program to Find the average cost spended by 3 friends and know who spent the most amount ===//
+
 a = int(input("Enter the Money spent by Aditya:"))
 b = int(input("Enter the Money spent by Pranav:"))
 c = int(input("Enter the Money spent by Dev:"))
