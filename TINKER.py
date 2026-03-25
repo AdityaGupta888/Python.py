@@ -1,19 +1,25 @@
 #  I am trying to write a code that will ask the user to enter the day and then it will print the workout for that day. I want to use if, elif and else statements to achieve this. Here is my code:
 
+
 a = input("Enter the day: ").capitalize()
-if a == "Tuesday" or a == "Wednesday":
-    print("Today is Stamina Building day Do Sprints")
-elif a == "Thursday" or a == "Friday" or a == "Saturday" or a== "Sunday":
-    print("Today is Calisthenics day Do Pushups, Pullups, Dips, Squats, Lunges")
+if a == "Tuesday" or a == "Wednesday" :
+    print("Today is only Stamina Building day Do Sprints in the morning")
+elif a == "Thursday" or a == "Friday" :
+    print("Today is Stamina Building day with calisthenics so Do Sprints in the morning and calisthenics in the evening")
+elif a == "Saturday" or a == "Sunday":
+    print("Today is only Calisthenics day Do Pushups, Pullups, Dips, Squats, Lunges in the evening")
 else:    print("Today is Rest Day")
 
-#===🔥 Ultra Clean Version (Recommended)===
+
+#===🔥  Clean Version ===
 
 a = input("Enter the day: ").capitalize()
 if a in ["Tuesday", "Wednesday"]:
-    print("Today is Stamina Building day Do Sprints")
-elif a in ["Thursday", "Friday", "Saturday", "Sunday"]:
-    print("Today is Calisthenics day Do Pushups, Pullups, Dips, Squats, Lunges")
+    print("Today is only Stamina Building day Do Sprints")
+elif a in ["Thursday", "Friday"]:
+    print("Today is Stamina Building day with calisthenics so Do Sprints in the morning and calisthenics in the evening")
+elif a in ["Saturday" or "Sunday"]:
+     print("Today is only Calisthenics day Do Pushups, Pullups, Dips, Squats, Lunges in the evening")
 else:    print("Today is Rest Day")
     
 
