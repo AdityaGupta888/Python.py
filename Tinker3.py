@@ -2,9 +2,9 @@
 
 print("Welcome to your calculator")
 print("Enter the first number :")
-a = int(input())
+a = float(input())
 print("Enter the second number :")
-b = int(input())
+b = float(input())
 print("Enter the operator :")
 c = input()
 if c == "+":
