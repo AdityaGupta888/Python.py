@@ -2,6 +2,12 @@
 
 z =input("Enter your name :")
 print("Welcome to the To do list" , z)
+print("\n===== TO-DO LIST MENU =====")
+print("1. Add Task")
+print("2. View Tasks")
+print("3. Mark Task as Completed")
+print("4. Delete Task")
+print("5. Exit")
 a = input("Enter the task you want to perform :").capitalize()
 print("Task added successfully",a)
 b = input("Enter the task you want to perform :").capitalize()
